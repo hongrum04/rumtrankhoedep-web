@@ -1,0 +1,26 @@
+# Rum Trần Khỏe Đẹp — robots.txt
+# Cho phép mọi công cụ tìm kiếm & trợ lý AI truy cập để được trích dẫn.
+
+User-agent: *
+Allow: /
+
+# Công cụ tìm kiếm AI (cho phép tường minh để được trích dẫn)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Không cần lập chỉ mục file artifact bản nháp
+Disallow: /rumtran-web-artifact.html
+
+Sitemap: https://rumtrankhoedep.store/sitemap.xml

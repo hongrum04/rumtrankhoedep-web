@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Chuyên viên Rum Trần chăm sóc sức khỏe tận nhà">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8ec"/><stop offset="1" stop-color="#f4e3c3"/>
+    </linearGradient>
+    <radialGradient id="glowR" cx="16%" cy="10%" r="60%">
+      <stop offset="0" stop-color="#d81f26" stop-opacity=".16"/><stop offset="1" stop-color="#d81f26" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowG" cx="88%" cy="94%" r="60%">
+      <stop offset="0" stop-color="#c8912f" stop-opacity=".30"/><stop offset="1" stop-color="#c8912f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efc873"/><stop offset="1" stop-color="#b8801f"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e23b41"/><stop offset="1" stop-color="#a8121a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe2c6"/><stop offset="1" stop-color="#f4c295"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glowR)"/>
+  <rect width="800" height="1000" fill="url(#glowG)"/>
+
+  <!-- vòng hào quang dịu -->
+  <circle cx="400" cy="430" r="250" fill="#fff" opacity="0.45"/>
+  <circle cx="400" cy="430" r="250" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.5"/>
+
+  <!-- hơi thở thư giãn -->
+  <g stroke="url(#gold)" stroke-width="6" fill="none" stroke-linecap="round" opacity=".65">
+    <path d="M366 250 q-18 -30 0 -60 q18 -30 0 -60"/>
+    <path d="M434 250 q18 -30 0 -60 q-18 -30 0 -60"/>
+  </g>
+
+  <!-- gương mặt khách thư thái -->
+  <g>
+    <path d="M320 300 q80 -70 160 0 q22 40 0 96 q-80 80 -160 0 q-22 -56 0 -96 z" fill="#2f1d12"/>
+    <ellipse cx="400" cy="400" rx="112" ry="126" fill="url(#skin)"/>
+    <path d="M300 356 q100 -96 200 0 q-40 -66 -100 -66 q-60 0 -100 66 z" fill="#2f1d12"/>
+    <!-- mắt nhắm thư giãn -->
+    <path d="M338 402 q28 20 56 0" stroke="#7a4a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M406 402 q28 20 56 0" stroke="#7a4a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- má hồng -->
+    <ellipse cx="336" cy="452" rx="20" ry="12" fill="#f0a0a0" opacity=".55"/>
+    <ellipse cx="464" cy="452" rx="20" ry="12" fill="#f0a0a0" opacity=".55"/>
+    <!-- miệng mỉm -->
+    <path d="M372 476 q28 22 56 0" stroke="#c76a4a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- đôi bàn tay vàng nâng niu (theo motif logo) -->
+  <g>
+    <path d="M250 690 q-30 -120 40 -190 q30 40 26 96 q40 -20 74 6 q26 20 6 60 q-70 70 -152 28 z" fill="url(#gold)"/>
+    <path d="M550 690 q30 -120 -40 -190 q-30 40 -26 96 q-40 -20 -74 6 q-26 20 -6 60 q70 70 152 28 z" fill="url(#gold)"/>
+    <path d="M250 690 q-30 -120 40 -190 q30 40 26 96" fill="none" stroke="#8a5f12" stroke-width="3" opacity=".35"/>
+    <path d="M550 690 q30 -120 -40 -190 q-30 40 -26 96" fill="none" stroke="#8a5f12" stroke-width="3" opacity=".35"/>
+  </g>
+
+  <!-- trái tim đỏ nhỏ giữa hai tay -->
+  <path d="M400 700 c-26 -34 -74 -6 -40 34 l40 40 l40 -40 c34 -40 -14 -68 -40 -34 z" fill="url(#red)"/>
+
+  <!-- âm dương góc trên trái -->
+  <g transform="translate(150,168)">
+    <circle r="56" fill="none" stroke="url(#gold)" stroke-width="5"/>
+    <circle r="44" fill="url(#gold)"/>
+    <path d="M0,-44 a22,22 0 0,1 0,44 a22,22 0 0,0 0,44 a44,44 0 0,1 0,-88 z" fill="url(#red)"/>
+    <circle cx="0" cy="-22" r="7.5" fill="url(#red)"/>
+    <circle cx="0" cy="22" r="7.5" fill="url(#gold)"/>
+  </g>
+
+  <!-- hoa sen dưới -->
+  <g transform="translate(400,872)">
+    <path d="M0,-4 C-8,-42 -34,-40 -30,-4 Z" fill="url(#red)"/>
+    <path d="M0,-4 C8,-42 34,-40 30,-4 Z" fill="url(#red)"/>
+    <path d="M0,-6 C-24,-44 -56,-28 -46,-4 Z" fill="url(#gold)"/>
+    <path d="M0,-6 C24,-44 56,-28 46,-4 Z" fill="url(#gold)"/>
+    <path d="M0,-8 C-7,-48 7,-48 0,-8 Z" fill="url(#gold)"/>
+    <ellipse cx="0" cy="-2" rx="58" ry="11" fill="url(#gold)" opacity=".55"/>
+  </g>
+
+  <!-- điểm sáng -->
+  <g fill="url(#gold)" opacity=".85">
+    <circle cx="648" cy="250" r="6"/><circle cx="690" cy="320" r="3.5"/>
+    <circle cx="150" cy="560" r="5"/><circle cx="196" cy="620" r="3"/>
+  </g>
+</svg>
